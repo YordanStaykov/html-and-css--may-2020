@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 50px;
+    margin: 0;
+}
+
+@media (min-width: 600px) {
+    .mq-width span::after {
+        content: ' Viewport width is larger than 600px';
+        display: inline-block;
+        color: green;
+    }
+}
+
+@media (min-height: 600px){
+    .mq-height span::after {
+        content: ' Viewport height is larger than 600px';
+        display: inline-block;
+        color: green;
+    }
+}
+
+@media (orientation: landscape){
+    .mq-ar span::after {
+        content: ' Aspect Ration is larger than 8/5';
+        display: inline-block;
+        color: green;
+    }
+}

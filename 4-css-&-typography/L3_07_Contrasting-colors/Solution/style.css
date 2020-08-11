@@ -1,0 +1,10 @@
+article {
+    background-color: rgb(51, 102, 153);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: Georgia, serif;
+}

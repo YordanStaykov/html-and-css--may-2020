@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px; 
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    background-color:rgb(238, 238, 238) ;
+    text-align: justify;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+div.page-container {
+    max-width: 60%;
+    margin: auto;
+}
+
+.second-section{
+    margin-bottom: 50px;
+}
+
+p.site-title {
+    font-size: 32px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+hr {
+    border: 1px solid black
+}
+
+.first-image,
+.second-image {
+    background-color: rgb(255, 255, 255) ;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.25) ;
+        margin-bottom: 30px;
+}
+
+.first-image {    
+    margin-left: 30px;
+}
+
+.second-image {
+    margin-right: 30px;
+}
+
+
+.quote-and-description > p,
+blockquote p,
+.quote-and-description blockquote {
+    margin: 0;
+}
+
+
+.quote-and-description > p {
+    width: 50%;
+    padding-right: 50px;
+    border-right: 2px solid black;
+}
+
+
+.quote-and-description blockquote {
+    width: 50%;
+    padding: 0 0 0 50px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+blockquote > footer{
+    text-align: right;
+}
+

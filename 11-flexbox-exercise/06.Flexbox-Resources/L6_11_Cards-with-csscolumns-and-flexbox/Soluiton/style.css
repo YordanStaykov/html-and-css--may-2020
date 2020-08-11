@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.masonry {
+    display: flex;
+    flex-flow: column wrap;
+    max-height:  2000px;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    max-height: 2000px;
+}
+
+.card {
+    background: white;
+    width: 30%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.flex .card{
+    margin-right: 30px;
+}
+
+.card-body,
+.card-footer {
+    padding: 0 20px 10px;
+
+}
+
+.card-header img{
+    width: 100%;
+}
+
+.card-footer {
+    border-top: 1px solid gray;
+}
+
+h2{
+    padding: 50px 0 20px;
+}

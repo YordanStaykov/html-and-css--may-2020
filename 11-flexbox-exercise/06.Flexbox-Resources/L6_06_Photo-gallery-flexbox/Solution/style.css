@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font: 1em/1.2 Georgia, serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+body, ul, li {
+    display: flex;
+}
+
+.gallery {
+    margin: auto;
+    width: 70vw;
+    height: 1200px;
+    flex-wrap: wrap;
+}
+
+.gallery ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery li {
+    padding: 20px 10px;
+    margin: 30px;
+    border: 5px solid black;
+    background: white;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+li img {
+    width: auto;
+}

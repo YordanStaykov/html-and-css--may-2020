@@ -1,0 +1,20 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+a {
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+    border-radius: 5px;
+    
+}
+p {
+    margin: 30px;
+}
+#click-me-anchor {
+    background-color: rgb(11, 129, 47);
+}
+
+#e-mail-me-anchor {
+    background-color: rgb(255, 166, 0);
+}

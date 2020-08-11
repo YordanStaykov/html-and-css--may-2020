@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.header-container,
+.header-container nav ul {
+    display: flex;
+}
+
+.header-container {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.site-header {
+    font-size: 40px;
+}
+
+.header-container nav ul {
+    list-style: none;
+    padding: 0 10px;
+    justify-content: flex-end;
+}
+
+.header-container nav {
+    flex-grow: 1;
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    padding: 0 10px;
+}

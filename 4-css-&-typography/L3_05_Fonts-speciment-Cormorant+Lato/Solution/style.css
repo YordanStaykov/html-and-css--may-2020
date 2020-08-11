@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+/* body {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+} */
+
+h1,
+h2 {
+    font-family: Cormorant, serif;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+#main-list {
+    list-style-type: square;
+}
+
+#second-list {
+    list-style-type: disc;
+}
+
+#third-list {
+    list-style-type: circle;
+}

@@ -1,0 +1,11 @@
+#main-list {
+    list-style-type: square;
+}
+
+#second-list {
+    list-style-type: disc;
+}
+
+#third-list {
+    list-style-type: circle;
+}

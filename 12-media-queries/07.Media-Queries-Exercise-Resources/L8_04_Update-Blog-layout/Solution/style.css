@@ -1,0 +1,189 @@
+html {
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding-top: 50px;
+}
+
+.page-header-title {
+    font-size: 40px;
+}
+
+.page-header-navigation-list {
+    margin: 0;
+    padding: 3px;
+    background-color: white;
+    list-style: none;
+}
+
+.page-header-navigation {
+    width: 70%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.page-header-navigation-list-item {
+    background-color: rgb(55, 55, 55) ;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.page-header-navigation-list-item-link {
+    text-decoration: none;
+    color: white;
+}
+
+.button-menu {
+    margin-bottom: 10px;
+    border: none;
+    background-color: inherit;
+}
+
+
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.content-wrapper {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    margin: 0 auto;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.site-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    flex-grow: 1;    
+    padding: 20px 0;
+}
+
+.first-image,
+.second-image {
+    background-color: rgb(255, 255, 255) ;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.25) ;
+        margin-bottom: 30px;
+}
+
+.first-image {    
+    margin-left: 30px;
+}
+
+.second-image {
+    margin-right: 30px;
+}
+
+.second-section{
+    margin-bottom: 50px;
+}
+
+.quote-and-description > p,
+blockquote p,
+.quote-and-description blockquote {
+    margin: 0;
+}
+
+
+.quote-and-description > p {
+    width: 50%;
+    padding-right: 50px;
+    border-right: 2px solid black;
+}
+
+
+.quote-and-description blockquote {
+    width: 50%;
+    padding: 0 0 0 50px;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+blockquote > footer{
+    text-align: right;
+}
+
+
+nav li {
+    list-style: square;
+}
+
+nav li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+blockquote, h1, h2 {
+    font-family: Georgia, serif;
+}
+
+@media (min-width: 700px) {
+    .menu-checkbox {
+        display: none;
+    }
+ 
+    .menu-checkbox-label {
+        display: none;
+    }
+    .page-header{
+        flex-flow: row wrap;
+        margin: 50px;
+        border-bottom: 2px solid black;
+        justify-content: space-between;
+    }
+ 
+    .page-header-navigation {
+        width: auto;
+        display: flex;
+        border: none;
+    }
+ 
+    .page-header-navigation-list {
+        display: flex;
+    }
+ 
+    .page-header-title{
+        margin: 0;
+        padding: 15px;
+    }
+
+    .content-wrapper {
+        flex-direction: row;
+    }
+ }

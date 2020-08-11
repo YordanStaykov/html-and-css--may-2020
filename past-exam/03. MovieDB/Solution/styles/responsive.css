@@ -1,0 +1,35 @@
+@media (max-width:768px) {
+    .main-movie-poster {
+        display: none;
+    }
+    .movie {
+        width: 200px;
+        height: 230px;
+    }
+
+    .main-movie-trailer iframe{
+        width: 640px;
+        height: 450px;
+    }
+}
+
+@media (max-width:414px) {
+    .movie-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-movie-trailer iframe{
+        width: 400px;
+        height: 320px;
+    }
+
+    .main-movie ul li{
+        padding: 0;
+    }
+
+    .movie {
+        width: 270px;
+        height: 320px;
+    }
+}

@@ -1,0 +1,69 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.viewport {
+    position: relative;
+}
+
+section.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card::after {
+    content: '';
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    box-shadow: inset 0 0 20px 0px black ;
+    border-radius: 5px;
+
+}
+
+.first-container {
+    background: linear-gradient(to right,  #2989d8 0%,#2989d8 1%,#79e0bf 100%); 
+    height: 500px;
+}
+
+.second-container {
+    background: linear-gradient(to right,  #d32883 0%,#e0b97b 84%);
+    height: 800px;
+}
+
+.lake img, .mountain img {
+   width: 400px;
+   border-radius: 5px;
+   display: block;
+}
+
+.lake img {
+    height: 300px;
+}
+.mountain img {
+    height: 600px;
+}
+
+.lake .fa, .mountain .fa {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+

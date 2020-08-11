@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: lightgray;
+    padding: 50px;
+}
+
+.child {
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: 150px;
+    margin: 10px;   
+    box-shadow: 0 0 5px 1px black;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+.content-container {
+    display: flex;
+}

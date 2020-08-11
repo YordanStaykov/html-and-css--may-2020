@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px; 
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color:rgb(238, 238, 238) ;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.page {
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    margin: 0 auto;
+}
+
+.page-header {
+    flex-grow: 1;
+    width: 100%;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.site-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    flex-grow: 1;    
+    padding: 20px 0;
+}
+
+.first-image,
+.second-image {
+    background-color: rgb(255, 255, 255) ;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.25) ;
+        margin-bottom: 30px;
+}
+
+.first-image {    
+    margin-left: 30px;
+}
+
+.second-image {
+    margin-right: 30px;
+}
+
+.second-section{
+    margin-bottom: 50px;
+}
+
+.quote-and-description > p,
+blockquote p,
+.quote-and-description blockquote {
+    margin: 0;
+}
+
+
+.quote-and-description > p {
+    width: 50%;
+    padding-right: 50px;
+    border-right: 2px solid black;
+}
+
+
+.quote-and-description blockquote {
+    width: 50%;
+    padding: 0 0 0 50px;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+blockquote > footer{
+    text-align: right;
+}
+
+
+nav li {
+    list-style: square;
+}
+
+nav li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+blockquote, h1, h2 {
+    font-family: Georgia, serif;
+}

@@ -1,0 +1,36 @@
+.parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 600px;
+    border: 1px solid salmon;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.first-child {}
+
+.second-child {
+    height: 300px;
+}
+
+.third-child {
+    height: 250px;
+}
+
+.forth-child {
+    height: 400px;
+    align-self: flex-end;
+}
+
+.fifth-child {
+    height: 500px;
+}

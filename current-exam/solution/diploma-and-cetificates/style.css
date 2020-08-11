@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    background-color: rgb(48, 96, 133);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.page-content {
+    width: 85%;
+    height: 65%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.page-content-description {
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+
+.page-content-description-header {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-content-description-paragraph{
+    font-family: 'Lato', sans-serif;
+}
+
+.page-content-description-paragraph span{
+    font-weight: bold;
+}
+
+.page-content-description-paragraph-light{
+    font-weight: 100;
+    font-size: 0.9rem;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.page-content-images {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.page-content-images img{
+    padding: 15px;
+}
+
+.arrow-image {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    z-index: 0;
+}
+
+.dots-lower-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.dots-top-right{
+    position: absolute;
+    top: 20px;
+    right: 350px;
+}

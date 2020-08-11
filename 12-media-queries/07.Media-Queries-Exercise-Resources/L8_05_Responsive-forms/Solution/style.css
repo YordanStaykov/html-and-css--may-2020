@@ -1,0 +1,65 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.page-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive-form-fieldset {
+    position: relative;
+    min-width: 500px;
+    min-height: 200px;
+    padding-top: 30px;
+}
+
+.responsive-form-fieldset-legend {
+    border: 1px solid black;
+    padding: 10px 100px 10px 10px;
+    position: absolute;
+    left: -2px;
+    top: -20px;
+    z-index: 1;
+    background: white;
+}
+
+.responsive-form-fieldset, .responsive-form-fieldset-legend {
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0px grey;
+}
+
+.username-input-container {
+    margin-top: 50px;
+}
+
+.input-container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px){
+    .input-container{
+        flex-direction: column;
+    }
+}
+
+.input-container label {
+    padding: 0 5px;
+}
+
+.input-container input {
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-radius: 3px;
+}
